@@ -4,7 +4,7 @@ windows2012server
 Windows2012Server バッチ
 
 # runwincheck.batをダブルクリック。
-# wincheck.bat単体でも動くます。
+# wincheck.bat単体でも動きます。
 runwincheck.bat
 wincheck.bat
 
