@@ -205,7 +205,8 @@ echo #
 echo ################################################################################
 @echo on
 
-icacls %HOMEDRIVE%\* > %NUM%_icacls.log
+icacls %HOMEDRIVE%\* > %NUM%_icacls.log 2>&1
+cacls %HOMEDRIVE%\* > %NUM%_cacls.log 2>&1
 if ERRORLEVEL 1 echo ERROR %NUM%
 
 set /a NUM=%NUM%+1
